@@ -1,0 +1,21 @@
+import Header from "presentation/component/organisms/Headline";
+import Loyalty from "presentation/component/organisms/Loyalty";
+import Card from "presentation/component/molecules/multiCard";
+import Template from "presentation/component/template";
+import Knowmore from "presentation/component/organisms/Knowmore";
+
+import Data from "./dataProducts";
+
+const Products = () => {
+  return (
+    <Template>
+      <Header {...Data.Header} />
+      <Card data={Data.Card} />
+      <Loyalty />
+      <Knowmore image={Data.Header.bg_1} data={Data.More[0].food} />
+      <Knowmore image={Data.Header.bg_2} data={Data.More[0].business} />
+    </Template>
+  );
+};
+
+export default Products;

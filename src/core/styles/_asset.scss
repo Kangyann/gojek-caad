@@ -1,0 +1,49 @@
+$bg-color: rgb(16, 24, 32);
+$bg-green: rgb(0 170 19);
+$bg-green-dark: rgb(0 140 21);
+$bg-blue: rgb(0 174 214);
+$bg-blue-dark: rgb(0 147 178);
+$bg-red: rgb(238 39 55);
+$bg-red-dark: rgb(175 39 47);
+$bg-purple: rgb(147 50 142);
+$bg-purple-dark: rgb(128 39 108);
+$bg-pink-valet: rgb(255 128 139);
+$bg-purple-valet: rgb(212 139 200);
+$w: #ffffff;
+$b: #000000;
+
+// FONT SIZE
+$font-size-small: 12px;
+$font-size-default: 16px;
+$font-size-lg: 1px;
+$font-size-xl: 20px;
+$font-size-2xl: 24px;
+$font-size-3xl: 30px;
+$font-size-4xl: 36px;
+$font-size-5xl: 48px;
+@font-face {
+  font-family: "masionExtBold";
+  src: url("./vendor/fonts/MaisonNeueExtendedBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "masionDemi";
+  src: url("./vendor/fonts/MaisonNeueExtendedDemi.otf") format("opentype");
+}
+@font-face {
+  font-family: "maisonBook";
+  src: url("./vendor/fonts/MaisonNeueBook.otf") format("opentype");
+}
+
+.button {
+  display: inline-block;
+  margin: 8px 0;
+  border-radius: 96px;
+  padding: 8px 24px;
+  font-weight: bold;
+  background-color: $bg-green-dark;
+  color: $w;
+  font-size: 16px;
+  width: fit-content;
+  line-height: 24px;
+  text-decoration: none;
+}

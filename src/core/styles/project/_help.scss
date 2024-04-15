@@ -1,0 +1,29 @@
+.help {
+  background-color: $bg-color;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  &__header {
+    width: 100%;
+    text-align: center;
+    h2 {
+      font-size: 50px;
+      color: white;
+    }
+    &__image {
+      img {
+        position: absolute;
+        bottom: 0;
+        width: 380px;
+        &:nth-child(1) {
+          left: 0;
+        }
+        &:nth-child(2) {
+          right: 0;
+        }
+      }
+    }
+  }
+}

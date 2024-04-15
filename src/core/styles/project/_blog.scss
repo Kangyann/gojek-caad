@@ -1,0 +1,63 @@
+.main {
+  padding: 24px 0px;
+  width: 100%;
+  h1 {
+    font-family: "masionExtBold";
+    font-size: 28px;
+  }
+  span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  &__content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: 100%;
+    padding-bottom: 80px;
+
+    &__menu {
+      text-decoration: none;
+      display: flex;
+      width: 100%;
+      position: relative;
+      flex-direction: column;
+      gap: 20px;
+      &__text {
+        padding: 6px 0px;
+        h2 {
+          font-size: 20px;
+        }
+        span {
+          position: absolute;
+          bottom: 0;
+          font-size: 14px;
+          color: rgb(0, 0, 0, 0.5);
+          text-shadow: 1px 1px 14px rgb(0, 0, 0, 0.3);
+        }
+      }
+      &__image {
+        object-fit: cover;
+        aspect-ratio: 16 / 9;
+        border-radius: 20px;
+        overflow: hidden;
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+  &__next {
+    padding: 96px 0px;
+    i {
+      border-radius: 48px;
+      font-size: 16px;
+      background-color: transparent;
+      padding: 16px;
+      color: var(--bg-green);
+      border: 1px solid var(--bg-green);
+      font-weight: bold;
+    }
+  }
+}
