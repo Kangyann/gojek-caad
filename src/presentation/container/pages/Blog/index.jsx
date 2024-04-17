@@ -1,13 +1,13 @@
-import Template from "presentation/component/template";
+import Layout from "presentation/component/template/Layout";
 import Post from "presentation/component/organisms/Post";
 
 import Data from "./dataBlog";
 
 const Blog = () => {
   return (
-    <Template>
-     <Post data={Data}/>
-    </Template>
+    <Layout>
+      <Post data={Data} />
+    </Layout>
   );
 };
 

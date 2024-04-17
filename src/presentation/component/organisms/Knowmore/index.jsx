@@ -20,6 +20,7 @@ const Knowmore = ({...otherData}) => {
                     image={x.image}
                     description={x.description}
                     button={true}
+                    link={x.link}
                   />
                 </div>
               ))}

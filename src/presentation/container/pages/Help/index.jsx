@@ -1,6 +1,6 @@
 import Topics from "presentation/component/organisms/Topics";
 import ImageBg from "core/assets/images/base/help.png";
-import Template from "presentation/component/template";
+import Layout from "presentation/component/template/Layout";
 import Headline from "presentation/component/organisms/Headline";
 import HelpHeadline from "presentation/component/organisms/HelpHeadline";
 
@@ -15,12 +15,12 @@ const Company = () => {
   ];
 
   return (
-    <Template>
+    <Layout>
       <Headline>
         <HelpHeadline image={image} title={"Need some help ?"} />
       </Headline>
       <Topics />
-    </Template>
+    </Layout>
   );
 };
 

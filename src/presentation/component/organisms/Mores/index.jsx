@@ -12,16 +12,20 @@ const More = ({ ...otherData }) => {
         <p>{otherData.description}</p>
       </div>
       {otherData.button !== true ? (
-        <Button to={otherData.link} className={"button"} name={otherData.button} />
-      ) : (
-        <>
         <Button
           to={otherData.link}
-          className="more__button__arrow"
-          name={"Know More"}
-        >
-          <i className="pi pi-arrow-right"></i>
-        </Button>
+          className={"button"}
+          name={otherData.button}
+        />
+      ) : (
+        <>
+          <Button
+            to={otherData.link}
+            className="more__button__arrow"
+            name={"Know More"}
+          >
+            <i className="fa-solid fa-arrow-right"></i>
+          </Button>
         </>
       )}
     </>

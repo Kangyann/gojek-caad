@@ -1,9 +1,8 @@
-// import "./index.css";
 import "core/styles/app.scss";
-import React, { StrictMode } from "react";
-import ReactDOM from "react-dom/client";
 
+import React, { StrictMode } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 
 import Home from "presentation/container/pages/Home";
 import Partner from "presentation/container/pages/Partner";
@@ -13,6 +12,9 @@ import Products from "presentation/container/pages/Products";
 import Blog from "presentation/container/pages/Blog";
 import Help from "presentation/container/pages/Help";
 import NotFound from "presentation/container/pages/NotFound";
+import Register from "presentation/container/pages/Register"
+import Login from "presentation/container/pages/Login"
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -26,6 +28,8 @@ root.render(
         <Route path="/products" element={<Products />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/help" element={<Help />} />
+        <Route path="/auth/login" element={<Login />} />
+        <Route path="/auth/register" element={<Register />} />
         
         <Route path="*" element={<NotFound />} /> 
       </Routes>

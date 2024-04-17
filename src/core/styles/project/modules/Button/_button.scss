@@ -1,0 +1,13 @@
+.button {
+  display: inline-block;
+  margin: 8px 0;
+  border-radius: 96px;
+  padding: 8px 24px;
+  font-weight: bold;
+  background-color: $bg-green-dark;
+  color: $w;
+  font-size: 16px;
+  width: fit-content;
+  line-height: 24px;
+  text-decoration: none;
+}

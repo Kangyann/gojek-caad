@@ -22,18 +22,22 @@ const data = {
             {
               image: imageIcon.gofood_solid,
               description: "Hungry? Order in.",
+              link: "https://www.gojek.com/id-id/gofood"
             },
             {
               image: imageIcon.gomart_solid,
               description: "Groceries delivered from stores nearby.",
+              link: "https://www.gojek.com/id-id/gomart"
             },
             {
               image: imageIcon.gomed_solid,
               description: "Chat with doctors, order in medicines.",
+              link: "https://www.gojek.com/id-id/gomed"
             },
             {
               image: imageIcon.goshop_solid,
               description: "Buy anything from anywhere",
+              link: "https://www.gojek.com/id-id/goshop"
             },
           ],
         },
@@ -48,18 +52,22 @@ const data = {
             {
               image: imageIcon.gobiz_solid,
               description: "A Gojek app to run and grow your business.",
+              link:"https://www.gojek.com/id-id/gobiz"
             },
             {
               image: imageIcon.midtrans_solid,
               description: "Accept payments and make payouts easily",
+              link:"https://www.gojek.com/id-id/midtrans"
             },
             {
               image: imageIcon.moka_solid,
               description: "Cloud based POS that made selling easy",
+              link:"https://www.gojek.com/id-id/moka"
             },
             {
               image: imageIcon.selly_solid,
               description: "Keyboard for online sellers",
+              link:"https://www.gojek.com/id-id/selly"
             },
           ],
         },

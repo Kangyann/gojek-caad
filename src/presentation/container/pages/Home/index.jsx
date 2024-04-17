@@ -2,13 +2,13 @@ import Scale from "presentation/component/organisms/Scale";
 import Header from "presentation/component/organisms/Headline/index.jsx";
 import Join from "presentation/component/organisms/Join";
 import Loyalty from "presentation/component/organisms/Loyalty";
-import Template from "presentation/component/template/index.jsx";
+import Layout from "presentation/component/template/Layout/index.jsx";
 
 import Data from "./dataScale.js";
 
 const Home = () => {
   return (
-    <Template>
+    <Layout>
       <Header {...Data.Section} />
       <Scale
         title={"We scale like a dream"}
@@ -18,7 +18,7 @@ const Home = () => {
       />
       <Loyalty />
       <Join />
-    </Template>
+    </Layout>
   );
 };
 

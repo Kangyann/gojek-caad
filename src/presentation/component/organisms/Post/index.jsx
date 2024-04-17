@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Post = ({data}) => {
-  console.log(data)
   return (
     <>
      <div className="main">

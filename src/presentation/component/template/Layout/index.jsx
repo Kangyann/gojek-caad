@@ -1,5 +1,5 @@
-import Footer from "../organisms/Footer";
-import Navbar from "../molecules/Navbar";
+import Footer from "../../organisms/Footer";
+import Navbar from "../../molecules/Navbar";
 const Template = ({ children }) => {
   return (
     <>

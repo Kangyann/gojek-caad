@@ -1,13 +1,13 @@
 import Header from "presentation/component/organisms/Headline";
 import Scale from "presentation/component/organisms/Scale";
 import Loyalty from "presentation/component/organisms/Loyalty";
-import Template from "presentation/component/template";
+import Layout from "presentation/component/template/Layout";
 
 import Data from "./dataCompany";
 
 const Company = () => {
   return (
-    <Template>
+    <Layout>
       <Header {...Data.Header} />
       <Scale
         title={"The three pillars of Gojek"}
@@ -15,7 +15,7 @@ const Company = () => {
         className={"pillars"}
       />
       <Loyalty />
-    </Template>
+    </Layout>
   );
 };
 
