@@ -2,7 +2,7 @@
 import Button from "presentation/component/atoms/Button";
 import Card from "presentation/component/molecules/Card";
 
-const Scale = ({ title, data, link, ...otherData }) => {
+const Scale = ({ title, link, ...otherData }) => {
   return (
     <div className={otherData.className}>
       <div className="container">
@@ -16,7 +16,7 @@ const Scale = ({ title, data, link, ...otherData }) => {
         </div>
         <div className="card">
           <div className="card__box">
-            {data.map((val, idx) => (
+            {otherData.data.map((val, idx) => (
               <Card
                 main_text={val.title}
                 sub_text={val.description}

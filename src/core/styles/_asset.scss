@@ -21,6 +21,8 @@ $font-size-2xl: 24px;
 $font-size-3xl: 30px;
 $font-size-4xl: 36px;
 $font-size-5xl: 48px;
+
+// FONT FAMILY
 @font-face {
   font-family: "masionExtBold";
   src: url("./vendor/fonts/MaisonNeueExtendedBold.otf") format("opentype");
@@ -34,6 +36,7 @@ $font-size-5xl: 48px;
   src: url("./vendor/fonts/MaisonNeueBook.otf") format("opentype");
 }
 
+// ATOMS 
 .button {
   display: inline-block;
   margin: 8px 0;

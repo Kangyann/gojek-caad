@@ -4,7 +4,7 @@ import Join from "presentation/component/organisms/Join";
 import Loyalty from "presentation/component/organisms/Loyalty";
 import Template from "presentation/component/template/index.jsx";
 
-import Data from "../dataScale.js";
+import Data from "./dataScale.js";
 
 const Home = () => {
   return (

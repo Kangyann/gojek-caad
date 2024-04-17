@@ -4,7 +4,7 @@ const Card = ({ main_text, sub_text, image, key }) => {
             <img src={image} alt="Logo" />
             <div className="card__box__item__text">
                 <h3>{main_text}</h3>
-                <span>{sub_text}</span>
+                <p>{sub_text}</p>
             </div>
         </li>
     );
