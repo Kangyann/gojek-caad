@@ -1,6 +1,6 @@
 import Footer from "../../organisms/Footer";
-import Navbar from "../../molecules/Navbar";
-const Template = ({ children }) => {
+import Navbar from "../../organisms/Navbar";
+const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
@@ -10,4 +10,4 @@ const Template = ({ children }) => {
   );
 };
 
-export default Template;
+export default Layout;

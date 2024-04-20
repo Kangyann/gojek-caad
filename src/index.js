@@ -28,8 +28,8 @@ root.render(
         <Route path="/products" element={<Products />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/help" element={<Help />} />
-        <Route path="/auth/login" element={<Login />} />
-        <Route path="/auth/register" element={<Register />} />
+        <Route path="/login" element={<Login />}  />
+        <Route path="/register" element={<Register />} />
         
         <Route path="*" element={<NotFound />} /> 
       </Routes>
